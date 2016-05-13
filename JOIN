@@ -1,0 +1,4 @@
+Example:
+SELECT player,teamid,stadium, mdate
+  FROM game JOIN goal ON (id=matchid) where teamid like 'GER'
+(# JOIN table A or B on(id=matchid); equals to JOIN table A or B where (A.id = B.matchid))
